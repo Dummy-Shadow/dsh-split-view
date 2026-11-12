@@ -1,0 +1,5 @@
+# dsh-split-view bundle patch: insert the plugin row into the web profile.
+# The browser half is declared by package.json `dsh.client` and served as client.js.
+- insert:
+    - id: split-view
+      name: 'dsh-split-view'
